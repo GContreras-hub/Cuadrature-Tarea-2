@@ -3,8 +3,9 @@
 Este es un trabajo para el curso FS-0432 Fisica Computacional de la Universidad de Costa Rica a cargo del profesor Marlon Brenes. El trabajo corresponde a la Tarea 2: Cuadratura Gaussiana, documentación de código y Git con un valor de 6%. 
 
 ## Cuadratura Gaussiana para Integración Numérica
+### Documentación:
 
-[![Documentación](https://img.shields.io/badge/Documentación-Publicada-blue.svg)](https://gcontreras-hub.github.io/Cuadrature-Tarea-2/) Una biblioteca Python para calcular integrales definidas con alta precisión utilizando el método de Cuadratura Gaussiana (Gauss-Legendre).
+[![Documentación](https://img.shields.io/badge/Documentación-Publicada-blue.svg)](https://gcontreras-hub.github.io/Cuadrature-Tarea-2/) 
 
 ## Problema
 
