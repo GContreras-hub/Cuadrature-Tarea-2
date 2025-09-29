@@ -383,19 +383,19 @@
 \int_a^b {\rm{d}}x f(x) \approx \sum_{k=1}^{N+1} w_k f(x_k).
 \end{align}
 donde:
-  * $w_k$ son los "pesos"
-  * $x_k$ son los puntos de muestreo. Nótese que usamos $N+1$ puntos (es decir, $N$ subregiones o subintervalos)
-  * Es exacta para un polinomio de orden $(2N - 1)$.</p>
+  * <span class="arithmatex">\(w_k\)</span> son los "pesos"
+  * <span class="arithmatex">\(x_k\)</span> son los puntos de muestreo. Nótese que usamos <span class="arithmatex">\(N+1\)</span> puntos (es decir, <span class="arithmatex">\(N\)</span> subregiones o subintervalos)
+  * Es exacta para un polinomio de orden <span class="arithmatex">\((2N - 1)\)</span>.</p>
 <p>Los pesos y puntos de muestreo se eligen tal que:
-  * $x_k$ corresponden a las $N$ raíces (ceros) de los polinomios de Legendre $P_N(x)$ de orden $N$.
+  * <span class="arithmatex">\(x_k\)</span> corresponden a las <span class="arithmatex">\(N\)</span> raíces (ceros) de los polinomios de Legendre <span class="arithmatex">\(P_N(x)\)</span> de orden <span class="arithmatex">\(N\)</span>.
   * Los pesos se eligen tal que:
-      - $\displaystyle w_k = \left[\frac{2}{1-x^2}\left(\frac{dP_N}{dx}\right)^{-2}\right]_{x={x_k}}$, con $x_k$ que cumple $P_N(x_k)=0$</p>
+      - <span class="arithmatex">\(\displaystyle w_k = \left[\frac{2}{1-x^2}\left(\frac{dP_N}{dx}\right)^{-2}\right]_{x={x_k}}\)</span>, con <span class="arithmatex">\(x_k\)</span> que cumple <span class="arithmatex">\(P_N(x_k)=0\)</span></p>
 <h2 id="polinomios-de-legendre">Polinomios de Legendre</h2>
 <p>Los polinomios de Legendre son un sistema de polinomios ortogonales que pueden ser definidos de manera recursiva. Tenemos:
 \begin{align}
 \forall (M, N) \in\mathbb N^2, \quad \int_{-1}^1 {\rm{d}}x P_N(x)P_M(x) = \frac{2\delta_{MN}}{2N+1}.
 \end{align}
-Note que los polinomios están definidos en el intervalo $[-1, 1]$.
+Note que los polinomios están definidos en el intervalo <span class="arithmatex">\([-1, 1]\)</span>.
 Los se definen empezando con
 \begin{align}
 P_0(x) = 1 \Rightarrow P_1(x) = x,
